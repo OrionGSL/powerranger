@@ -17,7 +17,7 @@
     <div class="formulario">
         <form action="processa_formulario.php" method="post">
             <h1 class="titulo">Power Rangers</h1>
-            <h4 class="titulo">Descubra qual Power Ranger você é! :).</h4>
+            <h4 class="titulo">Descubra qual Power Ranger você é! :)1</h4>
 
                 <input class="input" type="text" name="nome" placeholder="Seu nome." required />
                 <br>
@@ -41,5 +41,14 @@
             
         </form>
     </div>
+    <script>
+        function submitFormAndReload(event) {
+            event.preventDefault(); // Evita que o formulário seja submetido normalmente
+            document.getElementById("myForm").submit(); // Submete o formulário
+            setTimeout(function () {
+                location.reload(); // Recarrega a página após 1 segundo (ajuste conforme necessário)
+            }, 1000);
+        }
+    </script>
 </body>
 </html>
