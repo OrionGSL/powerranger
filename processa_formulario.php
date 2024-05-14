@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Conexão com o banco de dados
     $servername = "srv740.hstgr.io"; // endereço do servidor MySQL
     $username = "u421113016_oriongsl"; // usuário do MySQL
-    $password = "Abacate1234@"; // senha do MySQL
+    $password = "Buceta"; // senha do MySQL
     $dbname = "u421113016_BancoTeste"; // nome do banco de dados
 
     // Cria a conexão
